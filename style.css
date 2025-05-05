@@ -346,7 +346,7 @@ footer {
 }
 
 .image-placeholder {
-    background-color: #e9ecef;
+    background-color: #faf0df;
     border-radius: 10px;
     height: 250px;
     display: flex;
@@ -369,11 +369,13 @@ footer {
 }
 
 .image-placeholder img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 90%;
+    max-height: 90%;
     width: auto;
     height: auto;
     object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .map-placeholder .image-placeholder {
